@@ -21,7 +21,7 @@ MiHermano.setup({
 After that, you can use `translate` to translate strings:
 
 ```ruby
-MiHermano.translate("Hello, my friends!", :en, :fr)
+MiHermano.translate("Hello, my friends!", :en, :fr) # => "Bonjour, mes amis!"
 ```
 
 ## Options
@@ -37,8 +37,12 @@ MiHermano.setup({
   :default_target => :es
 })
 
-MiHermano.translate("Hello, my friends!")
+MiHermano.translate("Hello, my friends!") # => "Hola, mis amigos!"
 ```
+
+## Known issues
+
+Since we rely on a Google Spreadsheet function, translating a string is slow. It’s recommended that you use it background jobs.
 
 ## License
 
