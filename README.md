@@ -47,3 +47,5 @@ Since we rely on a Google Spreadsheet function, translating a string is slow. It
 ## License
 
 Mi Hermano is © 2012 [Rémi Prévost](http://exomel.com) and may be freely distributed under the [MIT license](https://github.com/remiprev/mi_hermano/blob/master/LICENSE). See the `LICENSE` file.
+
+[Original demo code](http://stackoverflow.com/questions/6151668/alternative-to-google-translate-api/8543979#8543979) by Mahmoud Khaled.
